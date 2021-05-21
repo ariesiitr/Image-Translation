@@ -30,8 +30,12 @@ Now the training of the model starts. Training consists of four basic steps: get
 
 ## Results
 ![](https://github.com/rakshit1401/Demo/blob/master/image1.jpeg)
+
+
 The above image is the result when the model runs for 50 epochs.
 
 ![](https://github.com/rakshit1401/Demo/blob/master/image5.jpeg)
+
+
 This image is the result when the model runs for 90 epochs.
 The accuracy of the model goes on  increasing with the number of epochs. 
