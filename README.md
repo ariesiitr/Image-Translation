@@ -24,12 +24,14 @@ In cycle consistency loss,
 #### Forward cycle consistency loss: X−>G(X)−>F(G(X))∼Xˆ.
 #### Backward cycle consistency loss: Y−>F(Y)−>G(F(Y))∼Yˆ.
 
-![](https://github.com/rakshit1401/Demo/blob/master/image1.jpeg)
 
 
 Now the training of the model starts. Training consists of four basic steps: getting the predictions, calculating the loss, calculating the gradients using backpropagation, and applying gradients to the optimizer. Now, the training is completed. We can visualize the test set results and see the image transformation from horses to zebras and vice versa.
 
 ## Results
 ![](https://github.com/rakshit1401/Demo/blob/master/image1.jpeg)
+The above image is the result when the model runs for 50 epochs.
 
 ![](https://github.com/rakshit1401/Demo/blob/master/image5.jpeg)
+This image is the result when the model runs for 90 epochs.
+The accuracy of the model goes on  increasing with the number of epochs. 
