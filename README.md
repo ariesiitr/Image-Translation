@@ -12,7 +12,6 @@ In the cycle GAN model, we have two generators (G and F) and two discriminators 
 * Generator G learns to transform image X to image Y. (G:X−>Y)
 * Discriminator D_X learns to differentiate between image X and generated image X (F(Y)).
 * Discriminator D_Y learns to differentiate between image Y and generated image Y (G(X)).
-![](https://github.com/rakshit1401/Demo/blob/master/image1.jpeg)
 
 One of the generators generates images of zebras, and the other generates images of horses. One discriminator learns to differentiate between real and fake zebra images, and the other model learns to distinguish between real and fake horse images. 
 To enforce that the model makes correct predictions, we have used cycle consistency loss as the loss function, which calculates the errors and backpropagates them into the network, and takes required steps to predict accurate results.
@@ -24,6 +23,8 @@ In cycle consistency loss,
 
 forward cycle consistency loss: X−>G(X)−>F(G(X))∼Xˆ
 backward cycle consistency loss: Y−>F(Y)−>G(F(Y))∼Yˆ.
+
+![](https://github.com/rakshit1401/Demo/blob/master/image1.jpeg)
 
 ![](https://github.com/rakshit1401/Demo/blob/master/image5.jpeg)
 
